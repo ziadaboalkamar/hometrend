@@ -108,11 +108,52 @@
                                 <div class="col-md-6">
                                     <div class="row">
                                         <div class="col-md-3">
-                                            <img src="assets/img/avatar_male.png" class="rounded-circle" width="100px" height="100px" alt="">
+                                            <img src="{{asset('assets/img/A3BFVksOtFwWo66OTjzAU3IgdUlhcVtAsU76fMDm.jpg')}}" class="rounded-circle" width="100px" height="100px" alt="">
 
                                         </div>
                                         <div class="col-md-9">
-                                            <h4 class="team-name">Hannah Nicholson </h4>
+                                            <h4 class="team-name">Ziad Abo Alkamar </h4>
+                                            <p class="team-job">Full Stack Developer</p>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <p class="team-description">I am a Technology Disputes Associate in the Litigation
+                                                team at White & Case. I have advised leading tech co
+                                                mpanies on privacy, copyright and electoral ad disputes.</p></div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img src="{{asset('assets/img/pp.jfif')}}" class="rounded-circle" width="100px" height="100px" alt="">
+
+                                        </div>
+                                        <div class="col-md-9">
+                                            <h4 class="team-name">Basel Muhaisen </h4>
+                                            <p class="team-job">Back End Developer</p>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <p class="team-description">I am a Technology Disputes Associate in the Litigation
+                                                team at White & Case. I have advised leading tech co
+                                                mpanies on privacy, copyright and electoral ad disputes.</p></div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+
+                        <div class="container">
+                            <div class="row" style="width: 100%;padding-top: 100px;">
+                                <div class="col-md-6">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img src="{{asset('assets/img/WhatsApp Image 2021-08-24 at 10.36.56 PM.jpeg')}}" class="rounded-circle" width="100px" height="100px" alt="">
+
+                                        </div>
+                                        <div class="col-md-9">
+                                            <h4 class="team-name">Mohammed Almadani </h4>
                                             <p class="team-job">Designer</p>
                                         </div>
                                         <div class="col-md-12">
@@ -129,8 +170,8 @@
 
                                         </div>
                                         <div class="col-md-9">
-                                            <h4 class="team-name">Hannah Nicholson </h4>
-                                            <p class="team-job">Designer</p>
+                                            <h4 class="team-name">Neda Ahmed </h4>
+                                            <p class="team-job">Analysis</p>
                                         </div>
                                         <div class="col-md-12">
                                             <p class="team-description">I am a Technology Disputes Associate in the Litigation
@@ -153,7 +194,7 @@
 
                                         </div>
                                         <div class="col-md-9">
-                                            <h4 class="team-name">Hannah Nicholson </h4>
+                                            <h4 class="team-name">Abeer</h4>
                                             <p class="team-job">Designer</p>
                                         </div>
                                         <div class="col-md-12">
@@ -170,48 +211,7 @@
 
                                         </div>
                                         <div class="col-md-9">
-                                            <h4 class="team-name">Hannah Nicholson </h4>
-                                            <p class="team-job">Designer</p>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <p class="team-description">I am a Technology Disputes Associate in the Litigation
-                                                team at White & Case. I have advised leading tech co
-                                                mpanies on privacy, copyright and electoral ad disputes.</p></div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-
-                        <div class="container">
-                            <div class="row" style="width: 100%;padding-top: 100px;">
-                                <div class="col-md-6">
-                                    <div class="row">
-                                        <div class="col-md-3">
-                                            <img src="assets/img/avatar_male.png" class="rounded-circle" width="100px" height="100px" alt="">
-
-                                        </div>
-                                        <div class="col-md-9">
-                                            <h4 class="team-name">Hannah Nicholson </h4>
-                                            <p class="team-job">Designer</p>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <p class="team-description">I am a Technology Disputes Associate in the Litigation
-                                                team at White & Case. I have advised leading tech co
-                                                mpanies on privacy, copyright and electoral ad disputes.</p></div>
-
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="row">
-                                        <div class="col-md-3">
-                                            <img src="assets/img/avatar_male.png" class="rounded-circle" width="100px" height="100px" alt="">
-
-                                        </div>
-                                        <div class="col-md-9">
-                                            <h4 class="team-name">Hannah Nicholson </h4>
+                                            <h4 class="team-name">Saja Radwan </h4>
                                             <p class="team-job">Designer</p>
                                         </div>
                                         <div class="col-md-12">
