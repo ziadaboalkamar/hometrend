@@ -25,6 +25,8 @@
     <!-- BEGIN MODERN CSS-->
     <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/css-rtl/app.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/css-rtl/custom-rtl.css')}}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{asset('assets/img/WhatsApp Image 2021-06-27 at 12.20.08 PM.jpeg')}}">
+
     <!-- END MODERN CSS-->
     <!-- BEGIN Page Level CSS-->
     <link rel="stylesheet" type="text/css"

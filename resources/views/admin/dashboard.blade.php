@@ -1,5 +1,5 @@
 @extends('layouts.admin')
-
+@section('title','Dashboard')
 @section('content')
     <div class="app-content content">
         <div class="content-wrapper">
@@ -10,24 +10,30 @@
                     <div class="col-xl-4 col-12">
                         <div class="card crypto-card-3 pull-up">
                             <div class="card-content">
-                                <div class="card-body pb-0">
-                                    <div class="row">
-                                        <div class="col-2">
-                                            <h1><i class="cc BTC warning font-large-2" title="BTC"></i></h1>
+                                <div class="card-body">
+                                    <div class="media d-flex">
+                                        <div class="media-body text-left">
+                                            <h3 class="success">{{App\User::count()}}</h3>
+                                            <span>New Clients</span>
                                         </div>
-                                        <div class="col-5 pl-2">
-                                            <h4>Dollar</h4>
-                                            <h6 class="text-muted">Dollar</h6>
-                                        </div>
-                                        <div class="col-5 text-right">
-                                            <h4>$9,980</h4>
-                                            <h6 class="success darken-4">31% <i class="la la-arrow-up"></i></h6>
+                                        <div class="align-self-center">
+                                            <i class="icon-user success font-large-2 float-right"></i>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="col-12">
-                                        <canvas id="btc-chartjs" class="height-75"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-12">
+                        <div class="card bg-info crypto-card-3 pull-up">
+                            <div class="card-content">
+                                <div class="media align-items-stretch">
+                                    <div class="p-2 text-white media-body text-left rounded-left">
+                                        <h5 class="text-white">New Designer</h5>
+                                        <h5 class="text-white text-bold-400 mb-0">{{App\Models\Designer::count()}}</h5>
+                                    </div>
+                                    <div class="p-2 text-center rounded-right">
+                                        <i class="icon-user font-large-2 text-white"></i>
                                     </div>
                                 </div>
                             </div>
@@ -36,50 +42,13 @@
                     <div class="col-xl-4 col-12">
                         <div class="card crypto-card-3 pull-up">
                             <div class="card-content">
-                                <div class="card-body pb-0">
-                                    <div class="row">
-                                        <div class="col-2">
-                                            <h1><i class="cc ETH blue-grey lighten-1 font-large-2" title="ETH"></i></h1>
-                                        </div>
-                                        <div class="col-5 pl-2">
-                                            <h4>Denar</h4>
-                                            <h6 class="text-muted">Denar</h6>
-                                        </div>
-                                        <div class="col-5 text-right">
-                                            <h4>$944</h4>
-                                            <h6 class="success darken-4">12% <i class="la la-arrow-up"></i></h6>
-                                        </div>
+                                <div class="media align-items-stretch">
+                                    <div class="p-2 text-center bg-success bg-darken-2 rounded-left">
+                                        <i class="icon-basket-loaded font-large-2 text-white"></i>
                                     </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12">
-                                        <canvas id="eth-chartjs" class="height-75"></canvas>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-12">
-                        <div class="card crypto-card-3 pull-up">
-                            <div class="card-content">
-                                <div class="card-body pb-0">
-                                    <div class="row">
-                                        <div class="col-2">
-                                            <h1><i class="cc XRP info font-large-2" title="XRP"></i></h1>
-                                        </div>
-                                        <div class="col-5 pl-2">
-                                            <h4>Shakel</h4>
-                                            <h6 class="text-muted">Balance</h6>
-                                        </div>
-                                        <div class="col-5 text-right">
-                                            <h4>$1.2</h4>
-                                            <h6 class="danger">20% <i class="la la-arrow-down"></i></h6>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12">
-                                        <canvas id="xrp-chartjs" class="height-75"></canvas>
+                                    <div class="p-2 bg-gradient-x-success text-white media-body rounded-right">
+                                        <h5 class="text-white">New Orders</h5>
+                                        <h5 class="text-white text-bold-400 mb-0">{{App\Models\Order::count()}}</h5>
                                     </div>
                                 </div>
                             </div>

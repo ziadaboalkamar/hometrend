@@ -37,7 +37,20 @@
                     </li>
                     <li class="col-lg-2 icon-list">
                         <ul>
-                            <li><a href="{{route('user.show.profile')}}"> <i class="fa fa-user"></i></a></li>
+                            <li>
+                                <a href="#"  onclick="Show()"> <i class="fa fa-user"></i></a>
+
+                                <div class="dropdown-menu " id="profile" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="{{route('user.show.profile')}}">Profile</a>
+                                    @auth
+                                        <a class="dropdown-item" href="{{ route('logout') }}"onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">Logout</a>
+                                        <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                            @csrf
+                                        </form>
+                                    @endauth
+                                </div>
+                            </li>
                             <li><a href="{{route('Favorite.show')}}"><i class="fa fa-heart"></i></a></li>
                             <li><a href="{{route('cart')}}"><i class="fa fa-shopping-cart"><span class="span-cart-number">     @auth
                                                 {{Cart::session(auth()->id())->getContent()->count()}}

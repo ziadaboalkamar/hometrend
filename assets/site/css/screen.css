@@ -129,6 +129,9 @@
             .title-home-swipre{
                 font-size: 45px !important;;
             }
+            .contact-icon .icon-social-media{
+                width: auto!important;
+            }
 }
 @media (max-width: 1080px){
     .container-nav{

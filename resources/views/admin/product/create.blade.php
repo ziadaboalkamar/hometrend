@@ -1,5 +1,5 @@
 @extends('layouts.admin')
-
+@section('title','create')
 @section('content')
 
     <div class="app-content content">
@@ -169,7 +169,7 @@
                                                     @error("image")
                                                     <span class="text-danger"> {{$message}}</span>
                                                     @enderror
-                                           
+
 
                                                 </div>
 

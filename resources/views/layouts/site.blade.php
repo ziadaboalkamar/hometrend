@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="{{asset('assets/site/css/popup.css')}}">
     <link rel="stylesheet" href="{{asset('assets/site/css/contact.css')}}">
 @yield('css')
+    <link rel="shortcut icon" type="image/x-icon" href="{{asset('assets/img/WhatsApp Image 2021-06-27 at 12.20.08 PM.jpeg')}}">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" >
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.css" integrity="sha512-RWhcC19d8A3vE7kpXq6Ze4GcPfGe3DQWuenhXAbcGiZOaqGojLtWwit1eeM9jLGHFv8hnwpX3blJKGjTsf2HxQ==" crossorigin="anonymous" referrerpolicy="no-referrer" >
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css" integrity="sha512-X/RSQYxFb/tvuz6aNRTfKXDnQzmnzoawgEQ4X8nZNftzs8KFFH23p/BA6D2k0QCM4R0sY1DEy9MIY9b3fwi+bg==" crossorigin="anonymous" referrerpolicy="no-referrer" >
@@ -88,6 +90,7 @@
 <script src="{{asset('assets/site/vendor/countdowntime/countdowntime.js')}}"></script>
 <!--===============================================================================================-->
 @yield('script')
+@yield('profile')
 <script type="text/javascript">
     $('.owl-carousel').owlCarousel({
         loop:true,
@@ -106,6 +109,8 @@
         }
     })
 </script>
+
+
 
 </body>
 </html>

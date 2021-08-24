@@ -32,6 +32,8 @@
     <link rel="stylesheet" type="text/css" href="{{asset('assets/site/css/util.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('assets/site/css/register.css')}}">
     <link rel="stylesheet" href="{{asset('assets/site/css/screen.css')}}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{asset('assets/img/WhatsApp Image 2021-06-27 at 12.20.08 PM.jpeg')}}">
+
 </head>
 
 <body>
