@@ -11,6 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d720b519-07ce-4da5-a3eb-d6b88c640447" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/img/A3BFVksOtFwWo66OTjzAU3IgdUlhcVtAsU76fMDm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/WhatsApp Image 2021-08-24 at 10.36.56 PM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/pp.jfif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/front/about us/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/about us/index.blade.php" afterDir="false" />
     </list>
@@ -148,12 +151,15 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1vo99ICdEHNJHMxKrjuVqE5nz7j" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/auth/passwords" />
@@ -222,7 +228,7 @@
       <workItem from="1629730432747" duration="3265000" />
       <workItem from="1629801691552" duration="6249000" />
       <workItem from="1629818326212" duration="640000" />
-      <workItem from="1629834936975" duration="1400000" />
+      <workItem from="1629834936975" duration="1777000" />
     </task>
     <servers />
   </component>
@@ -240,6 +246,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1628069031722">
