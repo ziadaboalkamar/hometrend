@@ -39,7 +39,7 @@
                         </a>
                     </div>
                     <div class="discription-prof">
-                        <p>{{$user->designer->about_us}}</p>
+{{--                        <p>{{$user->designer->about_us}}</p>--}}
                         <h4 class="phone-prof"><i class="fa fa-phone"></i><span>{{$user->designer->phone}}</span></h4>
                         <h4 class="locate-prof"><i class="fa fa-map-marker-alt"></i><span>{{$user->designer->address}}</span></h4>
                     </div>

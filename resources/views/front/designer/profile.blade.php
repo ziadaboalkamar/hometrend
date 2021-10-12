@@ -2,8 +2,11 @@
 @section('title', 'Profile')
 @section('content')
     <!-- start prof profile -->
-    @include('admin.includes.alerts.success')
-    @include('admin.includes.alerts.errors')
+    <div class="container">
+        @include('admin.includes.alerts.success')
+        @include('admin.includes.alerts.errors')
+    </div>
+
     <div class="prof-profile">
         <div class="row row-2-pd-30-product row-pd-btm-30">
             <div class="col-md-6 profile-discription-prof">
@@ -24,7 +27,7 @@
                             <h4 class="phone-prof"><i class="fa fa-phone"></i><span>{{$designer->phone}}</span></h4>
                             <h4 class="locate-prof"><i class="fa fa-map-marker-alt"></i><span>{{$designer->address}}</span></h4>
                             <h4 class="locate-prof"><i class="fas fa-user-graduate"></i><span>{{$designer->graduated}}</span></h4>
-                            <h4 class="locate-prof"><i class="far fa-credit-card"></i><span>{{$designer->price_hour}} per hour</span></h4>
+                            <h4 class="locate-prof"><i class="far fa-credit-card"></i><span>{{$designer->price_hour}}$ per hour</span></h4>
                         </div>
                     </div>
                 </div>

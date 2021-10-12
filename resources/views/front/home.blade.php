@@ -120,71 +120,20 @@
     </div>
 
     <div class="owl-carousel owl-theme">
+        @foreach($trending as $trend)
+            <div class="item">
+                <div class="row">
+                    <div class="col-lg-12 slider-item">
+                        <a href="{{route('category.product.page',$trend->id)}}">
+                            <img src="{{$trend->photo}}" alt="">
+                            <p class="discription-item">{{$trend->name}}</p>
+                            <p class="text-right mony-item">{{$trend->price}}$</p></a>
 
-        <div class="item">
-            <div class="row">
-                <div class="col-lg-12 slider-item">
-                    <img src="{{asset('assets/img/Group 333.png')}}" alt="">
-                    <p class="discription-item">Dining table with four
-                        chairs</p>
-                    <p class="text-right mony-item">300$</p>
+                    </div>
                 </div>
             </div>
-        </div>
+        @endforeach
 
-        <div class="item">
-            <div class="row">
-                <div class="col-lg-12 slider-item">
-                    <img src="{{asset('assets/img/Group 331.png')}}" alt="">
-                    <p class="discription-item">An Accessories Stand for
-                        plants</p>
-                    <p class="text-right mony-item">200$</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="item">
-            <div class="row">
-                <div class="col-lg-12 slider-item">
-                    <img src="{{asset('assets/img/Group 332.png')}}" alt="">
-                    <p class="discription-item">Gray classic large sofa</p>
-                    <p class="text-right mony-item">150$</p>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="item">
-            <div class="row">
-                <div class="col-lg-12 slider-item">
-                    <img src="{{asset('assets/img/Group 333.png')}}" alt="">
-                    <p class="discription-item">Dining table with four
-                        chairs</p>
-                    <p class="text-right mony-item">300$</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="item">
-            <div class="row">
-                <div class="col-lg-12 slider-item">
-                    <img src="{{asset('assets/img/Group 331.png')}}" alt="">
-                    <p class="discription-item">An Accessories Stand for
-                        plants</p>
-                    <p class="text-right mony-item">200$</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="item">
-            <div class="row">
-                <div class="col-lg-12 slider-item">
-                    <img src="{{asset('assets/img/Group 332.png')}}" alt="">
-                    <p class="discription-item">Gray classic large sofa</p>
-                    <p class="text-right mony-item">150$</p>
-                </div>
-            </div>
-        </div>
 
 
 

@@ -106,16 +106,23 @@
                                 </tr>
                                 </thead>
                                 <tbody>
+
+
                                 @foreach($orders as $order)
+                                    @foreach($order->product as $product)
+
+
+
                                 <tr>
                                     <th scope="row">
-                                        <img src="{{$order->item[0]->photo}}" alt="" width="100px" height="100px">
+                                        <img src="{{$product->photo}}" alt="" width="100px" height="100px">
                                     </th>
-                                    <td>{{$order->item[0]->name}}</td>
-                                    <td>{{$order->total}}$</td>
-                                    <td>{{$order->name}}</td>
-                                    <td>{{$order->payment_method}}</td>
+                                    <td>{{$product->name}}</td>
+                                    <td>{{$order->value}}$</td>
+                                    <td>{{$order->costumer_name}}</td>
+                                    <td>{{$order->payment_gateway}}</td>
                                 </tr>
+                                @endforeach
                                 @endforeach
                                 </tbody>
                             </table>

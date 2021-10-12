@@ -27,7 +27,7 @@
                             <h4 class="phone-prof"><i class="fa fa-phone"></i><span>{{$user->designer->phone}}</span></h4>
                             <h4 class="locate-prof"><i class="fa fa-map-marker-alt"></i><span>{{$user->designer->address}}</span></h4>
                             <h4 class="locate-prof"><i class="fas fa-user-graduate"></i><span>{{$user->designer->graduated}}</span></h4>
-                            <h4 class="locate-prof"><i class="far fa-credit-card"></i><span>{{$user->designer->price_hour}} per hour</span></h4>
+                            <h4 class="locate-prof"><i class="far fa-credit-card"></i><span>{{$user->designer->price_hour}}$ per hour</span></h4>
                         </div>
                     </div>
                 </div>

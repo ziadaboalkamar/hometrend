@@ -42,6 +42,8 @@ class Product extends Model
 
         return  $this ->belongsTo('App\Models\Category','category_id','id');
     }
-
+    public function payment(){
+        return $this->belongsToMany('App\Models\PaymentGateway', 'order_item','payment_id','product_id');
+    }
 
 }

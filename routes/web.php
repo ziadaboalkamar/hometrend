@@ -94,3 +94,10 @@ Route::post('update_profile/{id}', 'HomeController@update')->name('user.update.p
 Route::get('about_us', 'HomeController@about')->name('user.about.us');
 Route::get('/product/search', 'HomeController@search')->name('user.search');
 ################ end home ######################
+
+Route::get('callback',function (){
+    return 'success';
+});
+Route::get('error',function (){
+    return 'error';
+});

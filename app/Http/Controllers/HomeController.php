@@ -6,11 +6,15 @@ use App\Models\Comment;
 use App\Models\Designer;
 use App\Models\DesignerCategory;
 use App\Models\Order;
+use App\Models\OrderItem;
+use App\Models\Orders;
+use App\Models\PaymentGateway;
 use App\Models\Product;
 use App\Models\Project;
 use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 
 class HomeController extends Controller
 {
@@ -23,13 +27,21 @@ class HomeController extends Controller
 
     public function index()
     {
-        $products = Product::selection()->orderByRaw('updated_at - created_at DESC')->get();
-        return view('front.home',compact('products'));
+        $products = Product::selection()->orderByRaw(' created_at DESC')->paginate(10);
+        $trending = Product:: join('order_item', function ($join) {
+            $join->on('products.id', '=', 'order_item.product_id');
+
+        })->orderBy('payment_id', 'DESC')->take(4)->get();
+
+
+        return view('front.home',compact('products','trending'));
+
 
     }
 
     public function profile()
     {
+
         try {
             $id = Auth::user()->id;
             $user = User::selection()->find($id);
@@ -44,8 +56,12 @@ class HomeController extends Controller
             if ($user_designer != null ){
                 return view('front.designer.profile',compact('user' ,'commentsCount', 'designer','categories','projects','comments'));
             }elseif ($user_designer == null){
-                $orders = Order::selection()->where('user_id','=',$id)->get();
+
+               $orders = PaymentGateway::selection()->where('user_id','=',$id)->get();
+
+
                 return view('front.user.profile',compact('user','orders'));
+
             }elseif (!Auth::user()){
                 return route('home');
             }

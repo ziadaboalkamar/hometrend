@@ -12,7 +12,7 @@
                 @csrf
                 <div class="form-row">
                     <div class="form-group col-md-6">
-                        <label for="inputEmail4"><i class="fa fa-shapes"></i> Name</label>
+                        <label for="inputEmail4"><i class="fas fa-shapes"></i> Name</label>
                         <input type="text" name="name" class="form-control" id="inputEmail4">
                         @error('name')
                         <span class="text-danger">{{$message}}</span>
@@ -34,14 +34,14 @@
                 </div>
                 <div class="form-row">
                     <div class="form-group col-md-6">
-                        <label for="inputEmail4"><i class="fa fa-ruler-vertical"></i> Length</label>
+                        <label for="inputEmail4"><i class="fas fa-ruler-vertical"></i> Length</label>
                         <input name="length" type="text" class="form-control" id="inputEmail4">
                         @error('length')
                         <span class="text-danger">{{$message}}</span>
                         @enderror
                     </div>
                     <div class="form-group col-md-6">
-                        <label for="inputEmail4"><i class="fa fa-ruler-horizontal"></i> Width</label>
+                        <label for="inputEmail4"><i class="fas fa-ruler-horizontal"></i> Width</label>
                         <input name="width" type="text" class="form-control" id="inputEmail4">
                         @error('width')
                         <span class="text-danger">{{$message}}</span>
@@ -50,14 +50,14 @@
                 </div>
                 <div class="form-row">
                     <div class="form-group col-md-6">
-                        <label for="inputEmail4"><i class="fa fa-paint-roller"></i> Color</label>
+                        <label for="inputEmail4"><i class="fas fa-paint-roller"></i> Color</label>
                         <input name="color" type="text" class="form-control" id="inputEmail4">
                         @error('color')
                         <span class="text-danger">{{$message}}</span>
                         @enderror
                     </div>
                     <div class="form-group col-md-6">
-                        <label for="inputEmail4"><i class="fa fa-phone-alt"></i> Phone</label>
+                        <label for="inputEmail4"><i class="fas fa-phone-alt"></i> Phone</label>
                         <input name="phone" type="text" class="form-control" id="inputEmail4">
                         @error('phone')
                         <span class="text-danger">{{$message}}</span>

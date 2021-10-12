@@ -6,42 +6,46 @@
         @include('admin.includes.alerts.success')
         @include('admin.includes.alerts.errors')
     </div>
-
+    <!-- @foreach($images as $item)
+                            <div class="swiper-slide">
+                                <img src="{{URL::to($item)}}" />
+                            </div>
+                            @endforeach -->
     <div class="product-page">
         <div class="container">
             <div class="row">
 
-                <div class="col-md-6 col-sm-12">
-                    <div
-                        style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
-                        class="swiper-container mySwiper2"
-                    >
-                        <div class="swiper-wrapper">
-                            @foreach($images as $item)
-                            <div class="swiper-slide">
-                                <img src="{{URL::to($item)}}" />
-                            </div>
-                            @endforeach
-
-
-
-                        </div>
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
-                    </div>
-                    <div thumbsSlider="" class="swiper-container mySwiper">
-                        <div class="swiper-wrapper">
-                            @foreach($images as $item)
-                                <div class="swiper-slide">
-                                    <img src="{{URL::to($item)}}" />
-                                </div>
-                            @endforeach
-
-
-
-                        </div>
-                    </div>
+                    
+            <div class="col-md-6 col-sm-12">
+                <div
+                style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+                class="swiper mySwiper2"
+              >
+                <div class="swiper-wrapper">
+                @foreach($images as $item)
+                  <div class="swiper-slide">
+                  <img src="{{URL::to($item)}}" />
+                  </div>
+                  @endforeach
+             
+                  
                 </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+              <div thumbsSlider="" class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                @foreach($images as $item)
+                  <div class="swiper-slide">
+                  <img src="{{URL::to($item)}}" />
+                  </div>
+                  @endforeach
+                     
+                 
+               
+                </div>
+              </div>
+            </div>
                 <div class="col-md-6 col-sm-12">
                     <div class="product-title">
                         <div class="title-saved title text-left product-title-pd-23">

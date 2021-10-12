@@ -89,9 +89,10 @@
             </div>
         </div>
         <div class="swiper-team">
+
             <div
                 style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
-                class="swiper-container mySwiper"
+                class="swiper mySwiper"
             >
                 <div
                     class="parallax-bg"
@@ -102,7 +103,6 @@
                 ></div>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-
                         <div class="container">
                             <div class="row" style="width: 100%;padding-top: 100px;">
                                 <div class="col-md-6">
@@ -142,8 +142,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
 
+                    <div class="swiper-slide">
                         <div class="container">
                             <div class="row" style="width: 100%;padding-top: 100px;">
                                 <div class="col-md-6">
@@ -154,7 +154,7 @@
                                         </div>
                                         <div class="col-md-9">
                                             <h4 class="team-name">Mohammed Almadani </h4>
-                                            <p class="team-job">Designer</p>
+                                            <p class="team-job">Flutter Developer</p>
                                         </div>
                                         <div class="col-md-12">
                                             <p class="team-description">I am a Technology Disputes Associate in the Litigation
@@ -184,7 +184,6 @@
                         </div>
                     </div>
                     <div class="swiper-slide">
-
                         <div class="container">
                             <div class="row" style="width: 100%;padding-top: 100px;">
                                 <div class="col-md-6">
@@ -224,7 +223,6 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
                 <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>
