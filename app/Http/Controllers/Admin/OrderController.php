@@ -4,17 +4,18 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use App\Models\Order;
+use App\Models\PaymentGateway;
 use Illuminate\Http\Request;
 
 class OrderController extends Controller
 {
    public function index(){
-       $orders = Order::selection()->orderBy('created_at')->get();
+       $orders = PaymentGateway::selection()->orderBy('created_at')->get();
        return view('admin.order.index',compact('orders'));
    }
    public function destroy($id){
        try {
-           $orders = Order::find($id);
+           $orders = PaymentGateway::find($id);
            if (!$orders){
                return redirect()->route('admin.order' , $id)->with(["error" => "هذا المنتج غير موجودو"]);
            }

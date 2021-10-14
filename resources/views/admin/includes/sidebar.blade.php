@@ -96,7 +96,7 @@
             <li class="nav-item"><a href=""><i class="la la-wrench"></i>
                     <span class="menu-title" data-i18n="nav.dash.main">الطلبات</span>
                     <span
-                        class="badge badge badge-success badge-pill float-right mr-2">{{App\Models\Order::count()}}</span>
+                        class="badge badge badge-success badge-pill float-right mr-2">{{App\Models\PaymentGateway::count()}}</span>
 
                     <ul class="menu-content">
                         <li class="active"><a class="menu-item" href="{{route('admin.order')}}"

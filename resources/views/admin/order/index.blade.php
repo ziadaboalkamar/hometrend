@@ -52,7 +52,7 @@
                                                 <th>مجموع السعر</th>
                                                 <th> الى</th>
                                                 <th> طريقة الدفع</th>
-                                                <th>العنوان</th>
+
                                                 <th>الهاتف</th>
 
                                                 <th>الإجراءات</th>
@@ -62,15 +62,14 @@
 
                                             @isset($orders)
                                                 @foreach($orders as $order)
-
+                                                    @foreach($order->product as $product)
                                                     <tr>
-                                                        <td>{{$order -> item[0]->name}}</td>
-                                                        <td><img width="100px" height="100px" src="{{$order -> item[0] -> photo}}"></td>
-                                                        <td>{{$order -> total}}$</td>
-                                                        <td>{{$order -> name}} </td>
-                                                        <td>{{$order ->payment_method}}</td>
-                                                        <td>{{$order -> address}} </td>
-                                                        <td>{{$order -> phone}} </td>
+                                                        <td>{{$product->name}}</td>
+                                                        <td><img width="100px" height="100px" src="{{$product->photo}}"></td>
+                                                        <td>{{$order->value}}$</td>
+                                                        <td>{{$order->costumer_name}} </td>
+                                                        <td>{{$order->payment_gateway}}</td>
+                                                        <td>{{$order -> coustomer_phone}} </td>
                                                         <td>
                                                             <div class="btn-group" role="group"
                                                                  aria-label="Basic example">
@@ -83,7 +82,7 @@
                                                         </td>
                                                     </tr>
                                                 @endforeach
-
+                                                @endforeach
                                             @endisset
 
                                             </tbody>

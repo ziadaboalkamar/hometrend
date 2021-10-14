@@ -48,7 +48,7 @@
                                     </div>
                                     <div class="p-2 bg-gradient-x-success text-white media-body rounded-right">
                                         <h5 class="text-white">New Orders</h5>
-                                        <h5 class="text-white text-bold-400 mb-0">{{App\Models\Order::count()}}</h5>
+                                        <h5 class="text-white text-bold-400 mb-0">{{App\Models\PaymentGateway::count()}}</h5>
                                     </div>
                                 </div>
                             </div>
@@ -211,7 +211,7 @@
                                             <th>مجموع السعر</th>
                                             <th> الى</th>
                                             <th> طريقة الدفع</th>
-                                            <th>العنوان</th>
+
                                             <th>الهاتف</th>
 
                                             <th>الإجراءات</th>
@@ -221,15 +221,16 @@
 
                                         @isset($orders)
                                             @foreach($orders as $order)
+                                                @foreach($order->product as $product)
 
                                                 <tr>
-                                                    <td>{{$order -> item[0]->name}}</td>
-                                                    <td><img width="100px" height="100px" src="{{$order -> item[0] -> photo}}"></td>
-                                                    <td>{{$order -> total}}$</td>
-                                                    <td>{{$order -> name}} </td>
-                                                    <td>{{$order ->payment_method}}</td>
-                                                    <td>{{$order -> address}} </td>
-                                                    <td>{{$order -> phone}} </td>
+                                                    <td>{{$product->name}}</td>
+                                                    <td><img width="100px" height="100px" src="{{$product->photo}}"></td>
+                                                    <td>{{$order->value}}$</td>
+                                                    <td>{{$order->costumer_name}} </td>
+                                                    <td>{{$order->payment_gateway}}</td>
+                                                    <td>{{$order -> coustomer_phone}} </td>
+
                                                     <td>
                                                         <div class="btn-group" role="group"
                                                              aria-label="Basic example">
@@ -241,6 +242,7 @@
                                                         </div>
                                                     </td>
                                                 </tr>
+                                                @endforeach
                                             @endforeach
 
                                         @endisset
