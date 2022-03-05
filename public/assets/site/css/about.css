@@ -1,0 +1,206 @@
+        /* start about us  */
+        body{
+            overflow-x: hidden;
+        }
+        .ads-img img{
+            width: 100%;
+        }
+        .about-us .about_us_padding{
+            padding: 0px;
+        }
+        .about-us .about_us_paragraph{
+            padding-top: 80px;
+        }
+        .about-us .middle{
+            padding-top: 330px;
+        }
+        .about-us .about_us_paragraph .middle .about_us_title{
+            font-family: Segoe UI-MONOSPACE;
+            text-align: center;
+            font-size: 60px;
+            font-weight: bold;
+            color: #184040;
+            padding-bottom: 12px;
+        }
+         .middle .about_us_description{
+            font-family: Segoe UI-MONOSPACE;
+            font-size: 18px;
+            color: #919191;
+        }
+
+        
+ .timeline-box{
+    flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    max-width: 100%;
+}
+ .timeline{
+    background-color: #fdf9ff;
+    padding: 30px 15px;
+    border: 1px solid #d4d4e3 ;
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+   
+}
+ .timeline .timeline-item{
+    position: relative;
+    padding-left: 37px;
+    padding-bottom: 50px;
+}
+.timeline .timeline-item:last-child{
+    padding-bottom: 0px;
+}
+ .timeline .timeline-item::before{
+    content: "";
+    width: 1px;
+    position: absolute;
+    height: 100%;
+    left: 7px;
+    top: 0px;
+    background-color: #AAA0A0;
+}
+ .timeline .circle-dot{
+position: absolute;
+top: 0px;
+height: 20px;
+width: 20px;
+left: -2px;
+border-radius: 50%;
+background-color: #184040;
+}
+.timeline .timeline-date{
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 12px;
+  color: #504e70;
+  margin-top: -5px;
+}
+.timeline .timeline-date .fa{
+    margin-right: 5px;
+}
+ .timeline .timeline-title{
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom:15px ;
+    text-transform: capitalize;
+    color: #302e4d;
+}
+ .timeline .timeline-text{
+    font-size: 16px;
+    line-height: 25px;
+    color: #504e70;
+    margin: 0;
+    
+}
+.middle .see_more{
+    margin-bottom: 20px;
+    margin-top: 30px;
+    width: 200px;
+    height: 60px;
+    border-radius: 9px;
+    background-color: #184040;
+    border: none;
+}
+.middle .see_more a{
+    color: white;
+    text-decoration: none;
+}
+.middle .see_more:focus{
+    outline: none;
+}
+.provide .provide_title{
+    padding-top: 50px;
+    font-family: Segoe UI-MONOSPACE;
+    color: #184040;
+    font-weight: bold;
+    line-height: 1.4;
+}
+.provide .provide_paragraph{
+    
+        font-family: Segoe UI-MONOSPACE;
+        font-size: 18px;
+        color: #919191;
+        padding-top: 20px;
+}
+.provide .provide_number{
+    padding-top: 50px;
+}
+ .provide .provide_number span {
+    font-size: 45px;
+    font-weight: bold;
+    color: #184040;
+    font-family: Segoe UI-MONOSPACE;
+ }
+ .provide .provide_number p {
+    font-family: Segoe UI-MONOSPACE;
+    color: #B8B8B8;
+    font-size: 18px;
+ }
+
+ 
+ .swiper-container {
+    width: 100%;
+    height: 100%;
+    background: #000;
+  }
+
+  .swiper-slide {
+    font-size: 18px;
+    color: #fff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 40px 60px;
+    color: #000;
+  }
+
+  .parallax-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 130%;
+    height: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .swiper-slide .title {
+    font-size: 41px;
+    font-weight: 300;
+  }
+
+  .swiper-slide .subtitle {
+    font-size: 21px;
+  }
+
+  .swiper-slide .text {
+    font-size: 14px;
+    max-width: 400px;
+    line-height: 1.3;
+  }
+
+  .swiper-team{
+    height: 500px;    
+     padding-top: 100px;
+  }
+.swiper-team .team-name{
+    color: white;
+    font-family: Segoe UI-MONOSPACE;
+    font-style: italic;
+    font-weight: bold;
+}
+.swiper-team .team-job{
+    color: #B5E40D;
+    font-family: Segoe UI-MONOSPACE;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 22px;
+}
+.swiper-team .team-description{
+    padding-top: 22px;
+    color: white;
+    font-family: Segoe UI-MONOSPACE;
+    font-style: italic;
+}
+        /* end about us */

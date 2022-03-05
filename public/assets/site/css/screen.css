@@ -1,0 +1,177 @@
+@media (max-width: 991px){
+    .upper_header .ads h3{
+       font-size: 15px;
+    }
+    .nav-bar{
+        display: none;
+    }
+}
+
+@media (min-width: 991px){
+    .mobile-menu{
+        display: none;
+    }
+}
+
+@media(max-width:786px){
+    .product-page .product-title .avilable-product{
+        padding-top: 23px;
+    }
+
+    .find-prof .search-prof{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .prof-card-cat  .card{
+        width: 100% !important;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        }
+        .sending-message-prof .div-dir{
+            text-align: left!important;
+        }
+        .prof-list .sending-message-prof .love-product{
+            display: inline;
+            width: 20%;
+            padding-left: 20px;
+        }
+
+        .prof-list .love-interuior{
+            display: none;
+        }
+        .prof-list .sending-message-prof button{
+            font-size: 16px !important;
+            padding: 0 20px !important;
+            width: 80% !important;
+        }
+        .local-manufacture .title h2{
+            font-size: 40px;
+        }
+        .about-us .middle{
+            padding-top: 60px;
+        }
+        .swiper-team{
+            height: 100%;
+            text-align: center;
+        }
+}
+
+
+@media (max-width: 562px){
+    .mobile-bars,.mobile-logo,.mobile-icon {
+        width: auto!important;
+    }
+    .mobile-bars{
+        text-align: unset!important;
+        text-align: left!important;
+    }
+    .mobile-icon {
+        text-align: unset!important;
+        text-align: right!important;
+    }
+
+    .mobile-navbar .mobile-logo h2{
+        font-size: 30px;
+
+    }
+    .mobile-navbar .mobile-logo{
+        padding-left: 22px;
+    }
+
+    .upper_header .ads h3{
+        font-size: 18px;
+     }
+
+     .category-home .category-title h2{
+         font-size: 40px;
+     }
+     .product-title-font-size-sm{
+         font-size: 50px!important;
+     }
+     .customer-rating .number-of-review{
+         display: block;
+         text-align: right;
+     }
+    .comment-about-product .avatar-col,.comment-about-product .name-col{
+        width: auto!important;
+    }
+    .comment{
+        padding-left: 31px;
+    }
+    .cart-page .cart-tabel .the-last-total {
+        margin-top: 30px;
+    }
+    .find-prof .search-prof{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .find-prof .details-interior{
+        margin-top: 40%;
+    }
+    .prof-card-cat  .card-text{
+        font-family: Sitka Small;
+        color: #184040;
+        font-size: 19px;
+    }
+    .prof-card-cat  .card{
+        width: 100% !important;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        }
+        .projects-prof .shuffel-images .card{
+            width: 100% !important;}
+            .popup-all .title h2{
+                font-size: 38px;
+            }
+            .local-manufacture .title h2{
+                font-size: 30px;
+            }
+            .title-home-swipre{
+                font-size: 45px !important;;
+            }
+            .contact-icon .icon-social-media{
+                width: auto!important;
+            }
+}
+@media (max-width: 1080px){
+    .container-nav{
+     padding-right: 0px;
+     padding-left: 0px;
+    }
+    .nav-bar .nav-list .icon-list li i{
+        padding-right: 10px;
+    }
+
+}
+@media (max-width: 1200px){
+    .nav-bar .nav-list .list-pages li{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .prof-list .sending-message-prof button{
+        font-size: 13px;
+        padding: 0px;
+        width: 100%;
+    }
+}
+
+
+
+@media (max-width:800px){
+    #sidebar{
+left: -100%;
+    }
+}
+@media (min-width: 992px){
+
+
+}
+@media (max-width: 991px){
+    .sub-nav .sub-nav-content{
+        left: -100%;
+    }
+    .interior-designer .img-interior{
+        display: none;
+    }
+
+}
