@@ -12,9 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d720b519-07ce-4da5-a3eb-d6b88c640447" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/DashboardController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/includes/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/includes/sidebar.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,15 +164,15 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\hometrend" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\hometrend\resources\views\auth\passwords" />
       <recent name="C:\xampp\htdocs\hometrend\resources\views" />
       <recent name="C:\xampp\htdocs\hometrend\resources\views\front\designer" />
       <recent name="C:\xampp\htdocs\hometrend\resources\views\front\categories" />
       <recent name="C:\xampp\htdocs\hometrend\resources\views\front\about us" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\hometrend" />
     </key>
   </component>
   <component name="RunManager">
@@ -247,7 +244,20 @@
       <workItem from="1632914362639" duration="758000" />
       <workItem from="1632918898459" duration="4796000" />
       <workItem from="1632989661145" duration="13300000" />
-      <workItem from="1634197860896" duration="1343000" />
+      <workItem from="1634197860896" duration="1757000" />
+      <workItem from="1634581840601" duration="3238000" />
+      <workItem from="1634587477976" duration="3080000" />
+      <workItem from="1634591165165" duration="1856000" />
+      <workItem from="1634629958701" duration="2039000" />
+      <workItem from="1634743287228" duration="2460000" />
+      <workItem from="1635239133854" duration="979000" />
+      <workItem from="1635245191259" duration="687000" />
+      <workItem from="1636029445091" duration="180000" />
+      <workItem from="1639760448320" duration="615000" />
+      <workItem from="1641115305627" duration="1341000" />
+      <workItem from="1643616293082" duration="12000" />
+      <workItem from="1644136373004" duration="197000" />
+      <workItem from="1644139026367" duration="594000" />
     </task>
     <servers />
   </component>
@@ -342,6 +352,11 @@
           <url>file://$PROJECT_DIR$/resources/views/admin/local/index.blade.php</url>
           <line>42</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Http/Middleware/Authenticate.php</url>
+          <line>4</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
